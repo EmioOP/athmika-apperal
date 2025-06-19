@@ -13,6 +13,7 @@ import {
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
+import FeaturedProduct from "@/components/FeaturedProduct";
 
 export default function Component() {
   return (
@@ -298,6 +299,8 @@ export default function Component() {
           </div>
         </div>
       </section>
+      
+      <FeaturedProduct/>
     </div>
   );
 }
